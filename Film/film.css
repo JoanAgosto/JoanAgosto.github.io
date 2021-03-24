@@ -1,0 +1,67 @@
+body{
+	background-image: url('background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+header{
+	background:white;
+	margin-top:50px;
+	margin-left:340px;
+	letter-spacing: 2px;
+	text-align:center;
+	font-size:20px;
+	border: 2px solid black;
+	width:50%;
+}
+h2{
+	background:white;
+	text-align:center;
+	margin-top:50px;
+	margin-left:510px;
+	border: 2px solid black;
+	width:20%;
+	padding:20px;
+}
+.format{
+	float:left;
+	margin-left:70px;
+	padding:10px;
+}
+.description{
+	margin-right:100px;
+	text-align:justify;
+}
+p{
+	margin-right:300px;
+	float:right;
+	text-align:center;
+	border: 2px solid black;
+	padding:5px;
+	width:50%;
+	background:white;
+}
+h4{
+	margin-right:490px;
+	float:right;
+	text-align:center;
+	width:20%;
+	border: 2px solid black;
+	padding:10px;
+	background:white;
+}
+a{
+	text-decoration:none;
+}
+.link{
+	margin-bottom:50px;
+	margin-left: 1000px;
+	border: 2px solid black;
+	text-align: center;
+	width:20%;
+	height:10%;
+	background:white;
+}
+.link:hover{
+	text-decoration:underline;
+}

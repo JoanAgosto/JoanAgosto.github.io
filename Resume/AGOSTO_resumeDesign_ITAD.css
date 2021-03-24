@@ -1,0 +1,79 @@
+body {
+    margin: 40px;
+    font-family: "Adobe Caslon Pro", "Minion Pro", serif;
+    font-size: 12pt;
+	background: linear-gradient(110deg, #9CC3D5FF 60%, #0063B2FF 60%);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img{
+	position:relative;
+	width:100px;
+	height:100px;
+	display: block;
+	margin-left: auto;
+	margin-right: 20px;
+	border: 5px solid #FFFFFF;
+	
+}
+img:hover{
+	opacity:0.7;
+}
+header {
+    font-family: "Trajan Pro", serif;
+    padding-bottom: 10px;
+	
+}
+
+h1 {
+    font-size: 25pt;
+    letter-spacing: 2pt;
+    border-bottom: 2px solid black;
+    margin-bottom: 4px;
+}
+
+span,pre {
+    font-size: 10pt;
+    float: right;
+	font-weight:bold;
+}
+
+h2 {
+    font-family: "Trajan Pro", serif;
+    font-size: 14pt;
+}
+
+p {
+    margin-left: 40px;
+	font-weight:bold;
+}
+
+hr{
+	border-bottom: 2px solid black
+}
+
+b{
+	text-align:center;
+}
+li{
+	font-weight:bold;
+	font-size:15px;
+}
+pre{
+	margin-right: 30px;
+}
+a{
+	text-decoration:none;
+}
+.link{
+	margin-bottom:50px;
+	margin-left: 1000px;
+	border: 2px solid black;
+	text-align: center;
+	width:20%;
+	height:10%;
+	background:white;
+}
+.link:hover{
+	text-decoration:underline;
+}
