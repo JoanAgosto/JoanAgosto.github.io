@@ -77,3 +77,17 @@ body{
 .film:hover{
 	text-decoration:underline;
 }
+.photo{
+	background:white;
+	color:black;
+	margin-top:31em;
+	margin-left:21.875em;
+	position:absolute;
+	border: 2px solid black;
+	text-align: center;
+	width:20%;
+	height:10%;
+}
+.photo:hover{
+	text-decoration:underline;
+}
