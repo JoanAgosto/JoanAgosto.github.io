@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Pizza Order Form</title>
+	<style type="text/css">
+		 
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="AGOSTO_IMAGES_ITAD/AGOSTO_pizzaOrderFormDesign_ITAD.css">
+    <!--AGOSTO, JOAN CHRISTINE-->
+    <!--05/04/2021-->
+	
+
+	<h1>PIZZA ORDER FORM</h1>
+	<img style="border:5px double black" src="AGOSTO_IMAGES_ITAD/pizza.png" alt="Pizza Logo" align="left" width="200px" height="200px" hspace="20">
+	<form action="">
+		<fieldset>
+			<legend>Customer Information</legend>
+			<p>
+				<label>Last Name:</label>
+				<input type="text" maxlength="20"/>
+				&nbsp;&nbsp;&nbsp;
+				<label>First Name:</label>
+				<input type="text" maxlength="20"/>
+				&nbsp;&nbsp;&nbsp;
+				<label>Middle Initial:</label>
+				<input type="text" maxlength="3"/>
+			</p>
+			<p>
+				<label>Complete Address:</label>
+				<input type="text"/>
+			</p>
+			<p>
+				<label>Contact Number:</label>
+				<input type="text">
+			</p>
+			<p>
+				<label>Email Address:</label>
+				<input type="text"/>
+			</p>
+
+			<fieldset id="frm">
+				<legend >How to get there?</legend>
+					<textarea name="comment" rows="10" cols="100">Enter text here...</textarea>
+			</fieldset>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>ORDER FORM</legend>
+				<img src="AGOSTO_IMAGES_ITAD/burger.png" alt="Burger image" align="left" width="50px" height="50px" hspace="10">
+			<h4>BURGERS</h4>
+		<p>
+			<label for="Bun">Bun</label>
+			<br>
+				<select name="Bun" id="Bun" size="1">
+					<option value="white bun">White Bun</option>
+					<option value="wheat bun">Wheat Bun</option>
+				</select>	
+			<br>
+			<label for="patty">Patty</label>
+			<br>
+			<select name="patty" id="patty" size="1">
+				<option value="single patty">Single Patty</option>
+				<option value="double patty">Double Patty</option>
+			</select>
+		</p>
+		<p>
+			<label for="cheese"><b>Cheese:</b></label>
+			<input type="radio" id="with cheese" name="cheese">
+			<label for="with cheese">With cheese</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="no cheese" name="cheese">
+			<label for="no cheese">No cheese</label>
+		</p>
+		<br>
+			<label>Qty:</label>
+			<input type="text"/ maxlength="2">
+			<hr>
+			<img src="AGOSTO_IMAGES_ITAD/pasta.png" alt="Pasta image" align="left" width="50px" height="40px" hspace="10">
+		<h4>PASTA</h4>
+		<br>
+		<label for="sauce">Sauce</label>
+			<select name="sauce" id="sauce" size="1">
+				<option value="carbonara">Carbonara</option>
+				<option value="pesto">Pesto</option>
+				<option value="spaghetti">Spaghetti</option>
+				<option value="alfredo">Alfredo</option>
+			</select>	
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<label for="other"><b>Other:</b></label>
+		<input type="checkbox" id="extra cheese" name="other">
+		<label for="extra cheese">Extra cheese</label>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" id="extra sauce" name="other">
+		<label for="extra sauce">Extra Sauce</label>
+		<h5>Or</h5>
+				<input type="checkbox" id="no cheese" name="other">
+		<label for="no cheese">No cheese</label>
+		<hr>
+		<br>
+		<img src="AGOSTO_IMAGES_ITAD/soda.png" alt="Cute soda image." align="left" width="50px" height="50px" hspace="10">
+		<h4>DRINKS</h4>
+		<label for="Kind"><b>Kind of Drink:</b></label>
+		<hr>
+		<input type="checkbox" id="coke" name="Kind">
+		<label for="coke">Coke</label>
+		<fieldset>
+		<br>
+			<label for="size"><b>Sizes:</b></label>
+			<input type="radio" id="s" name="size">
+			<label for="s">S</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="m" name="size">
+			<label for="m">M</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="l" name="size">
+			<label for="l">L</label>
+			&nbsp;&nbsp;&nbsp;
+			<label>Qty:</label>
+			<input type="text"/ maxlength="2">
+		</fieldset>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" id="sprite" name="Kind">
+		<label for="sprite">Sprite</label>
+		<fieldset>
+		<br>
+			<label for="size"><b>Sizes:</b></label>
+			<input type="radio" id="s" name="size">
+			<label for="s">S</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="m" name="size">
+			<label for="m">M</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="l" name="size">
+			<label for="l">L</label>
+			&nbsp;&nbsp;&nbsp;
+			<label>Qty:</label>
+			<input type="text"/ maxlength="2">
+		</fieldset>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" id="pepsi" name="Kind">
+		<label for="pepsi">Pepsi</label>
+		<fieldset>
+		<br>
+			<label for="size"><b>Sizes:</b></label>
+			<input type="radio" id="s" name="size">
+			<label for="s">S</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="m" name="size">
+			<label for="m">M</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="l" name="size">
+			<label for="l">L</label>
+			&nbsp;&nbsp;&nbsp;
+			<label>Qty:</label>
+			<input type="text"/ maxlength="2">
+		</fieldset>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" id="mountain dew" name="Kind">
+		<label for="mountain dew">Mountain dew</label>
+		<fieldset>
+		<br>
+			<label for="size"><b>Sizes:</b></label>
+			<input type="radio" id="s" name="size">
+			<label for="s">S</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="m" name="size">
+			<label for="m">M</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="l" name="size">
+			<label for="l">L</label>
+			&nbsp;&nbsp;&nbsp;
+			<label>Qty:</label>
+			<input type="text"/ maxlength="2">
+		</fieldset>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" id="iced tea" name="Kind">
+		<label for="iced tea">Iced Tea</label>
+		<fieldset>
+		<br>
+			<label for="size"><b>Sizes:</b></label>
+			<input type="radio" id="s" name="size">
+			<label for="s">S</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="m" name="size">
+			<label for="m">M</label>
+			&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="l" name="size">
+			<label for="l">L</label>
+			&nbsp;&nbsp;&nbsp;
+			<label>Qty:</label>
+			<input type="text"/ maxlength="2">
+		</fieldset>
+	</fieldset>
+	<fieldset>
+		<legend>FEEDBACKS</legend>
+		<textarea name="feedback" rows="10" cols="80">Enter text here...</textarea>
+	<hr>
+	<br>
+	<fieldset>
+		<label for="delivery"><b>Delivery:</b></label>
+		<input type="radio" id="delivery" name="type">
+		<label for="delivery">Delivery</label>
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" id="pickup" name="type">
+		<label for="pickup">Pick-up</label>
+	</fieldset>
+	<br>
+	<div align="right">
+		<input type="submit" id="btn" value="Submit">
+	</div>
+	</form>
+
+</body>
+</html>
