@@ -13,9 +13,10 @@
     <!--AGOSTO, JOAN CHRISTINE-->
     <!--05/04/2021-->
 	
-
+	<div align="center">
+	<img style="border:5px double black; border-radius: 50%;" src="AGOSTO_IMAGES_ITAD/pizza.png" alt="Pizza Logo" width="300px" height="300px" hspace="20">
+	</div>
 	<h1>PIZZA ORDER FORM</h1>
-	<img style="border:5px double black" src="AGOSTO_IMAGES_ITAD/pizza.png" alt="Pizza Logo" align="left" width="200px" height="200px" hspace="20">
 	<form action="">
 		<fieldset>
 			<legend>Customer Information</legend>
@@ -41,27 +42,29 @@
 				<label>Email Address:</label>
 				<input type="text"/>
 			</p>
-
+			<br>
 			<fieldset id="frm">
 				<legend >How to get there?</legend>
 					<textarea name="comment" rows="10" cols="100">Enter text here...</textarea>
 			</fieldset>
+			<br><br>
 		</fieldset>
 		<br>
 		<fieldset>
 			<legend>ORDER FORM</legend>
-				<img src="AGOSTO_IMAGES_ITAD/burger.png" alt="Burger image" align="left" width="50px" height="50px" hspace="10">
+			<br><br>
+			<div align="center">
+				<img src="AGOSTO_IMAGES_ITAD/burger.png" alt="Burger image" width="100px" height="100px" hspace="10">
 			<h4>BURGERS</h4>
 		<p>
 			<label for="Bun">Bun</label>
-			<br>
+
 				<select name="Bun" id="Bun" size="1">
 					<option value="white bun">White Bun</option>
 					<option value="wheat bun">Wheat Bun</option>
 				</select>	
-			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<label for="patty">Patty</label>
-			<br>
 			<select name="patty" id="patty" size="1">
 				<option value="single patty">Single Patty</option>
 				<option value="double patty">Double Patty</option>
@@ -78,8 +81,12 @@
 		<br>
 			<label>Qty:</label>
 			<input type="text"/ maxlength="2">
+			</div>
+			<br><br>
 			<hr>
-			<img src="AGOSTO_IMAGES_ITAD/pasta.png" alt="Pasta image" align="left" width="50px" height="40px" hspace="10">
+			<br><br>
+			<div align="center">
+			<img src="AGOSTO_IMAGES_ITAD/pasta.png" alt="Pasta image" width="100px" height="100px" hspace="10">
 		<h4>PASTA</h4>
 		<br>
 		<label for="sauce">Sauce</label>
@@ -99,14 +106,20 @@
 		<h5>Or</h5>
 				<input type="checkbox" id="no cheese" name="other">
 		<label for="no cheese">No cheese</label>
-		<hr>
+		<br><br>
+		</div>
 		<br>
-		<img src="AGOSTO_IMAGES_ITAD/soda.png" alt="Cute soda image." align="left" width="50px" height="50px" hspace="10">
-		<h4>DRINKS</h4>
-		<label for="Kind"><b>Kind of Drink:</b></label>
 		<hr>
+		<br><br>	
+		<div align="center">
+		<img src="AGOSTO_IMAGES_ITAD/soda.png" alt="Cute soda image." width="100px" height="100px" hspace="10">
+		<h4>DRINKS</h4>
+		</div>
+		<label for="Kind"><b>Kind of Drink:</b></label>
+		<br><br>
 		<input type="checkbox" id="coke" name="Kind">
 		<label for="coke">Coke</label>
+		<br><br>
 		<fieldset>
 		<br>
 			<label for="size"><b>Sizes:</b></label>
@@ -123,8 +136,10 @@
 			<input type="text"/ maxlength="2">
 		</fieldset>
 		&nbsp;&nbsp;&nbsp;
+		<br>
 		<input type="checkbox" id="sprite" name="Kind">
 		<label for="sprite">Sprite</label>
+		<br><br>
 		<fieldset>
 		<br>
 			<label for="size"><b>Sizes:</b></label>
@@ -141,8 +156,10 @@
 			<input type="text"/ maxlength="2">
 		</fieldset>
 		&nbsp;&nbsp;&nbsp;
+		<br>
 		<input type="checkbox" id="pepsi" name="Kind">
 		<label for="pepsi">Pepsi</label>
+		<br><br>
 		<fieldset>
 		<br>
 			<label for="size"><b>Sizes:</b></label>
@@ -159,8 +176,10 @@
 			<input type="text"/ maxlength="2">
 		</fieldset>
 		&nbsp;&nbsp;&nbsp;
+		<br>
 		<input type="checkbox" id="mountain dew" name="Kind">
 		<label for="mountain dew">Mountain dew</label>
+		<br><br>
 		<fieldset>
 		<br>
 			<label for="size"><b>Sizes:</b></label>
@@ -177,8 +196,10 @@
 			<input type="text"/ maxlength="2">
 		</fieldset>
 		&nbsp;&nbsp;&nbsp;
+		<br>
 		<input type="checkbox" id="iced tea" name="Kind">
 		<label for="iced tea">Iced Tea</label>
+		<br><br>
 		<fieldset>
 		<br>
 			<label for="size"><b>Sizes:</b></label>
@@ -194,21 +215,24 @@
 			<label>Qty:</label>
 			<input type="text"/ maxlength="2">
 		</fieldset>
+		<br><br>
 	</fieldset>
+	<br><br>
 	<fieldset>
 		<legend>FEEDBACKS</legend>
 		<textarea name="feedback" rows="10" cols="80">Enter text here...</textarea>
-	<hr>
+	</fieldset>
 	<br>
 	<fieldset>
-		<label for="delivery"><b>Delivery:</b></label>
+		<legend>DELIVERY</legend>
+		<br>
 		<input type="radio" id="delivery" name="type">
 		<label for="delivery">Delivery</label>
 		&nbsp;&nbsp;&nbsp;
 		<input type="radio" id="pickup" name="type">
 		<label for="pickup">Pick-up</label>
 	</fieldset>
-	<br>
+	<br><br>
 	<div align="right">
 		<input type="submit" id="btn" value="Submit">
 	</div>
